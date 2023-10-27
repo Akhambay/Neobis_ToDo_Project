@@ -68,7 +68,7 @@ class ItemUpdate(UpdateView):
     fields = [
         "todo_list",
         "title",
-        "description"
+        "description",
     ]
 
     def get_context_data(self):
