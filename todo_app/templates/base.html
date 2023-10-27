@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Simple.css-->
     <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
-    <title>Django To-do Lists</title>
+    <title>Project 2</title>
 </head>
 
 <body>
     <div>
-        <h1 onclick="location.href='{% url 'index' %}'">
-            Django To-do Lists
-        </h1>
+        <h3 onclick="location.href='{% url 'index' %}'">
+            NEOBIS. To-do list project
+        </h3>
+        <h5><a href="/home">All my lists</a></h5>
     </div>
     <div>
         {% block content %}
